@@ -1,0 +1,5 @@
+2026-01-01T10:00:00Z INFO [api] request received
+2026-01-01T10:00:30Z WARN [api] slow response
+2026-01-01T10:05:00Z ERROR [db] connection lost
+2026-01-01T10:05:10Z INFO [db] reconnected
+2026-01-01T11:00:00Z INFO [api] request received
