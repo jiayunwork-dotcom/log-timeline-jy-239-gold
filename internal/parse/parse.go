@@ -27,7 +27,7 @@ func ParseLine(line string) (Entry, error) {
 	if err != nil {
 		return Entry{}, fmt.Errorf("parse: bad timestamp %q: %w", fields[0], err)
 	}
-	level := fields[1]
+	level := strings.ToUpper(fields[1])
 	rest := ""
 	if len(fields) == 3 {
 		rest = fields[2]
